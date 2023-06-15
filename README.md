@@ -25,6 +25,7 @@ slave.iValue: 102	 slave.fValue: 10.54	 slave: 101674	iRequests: 739	 iReceived:
   if (SerialRead(Wire,oSlave2Master,iAvail))
   {
     OUT2T("slave.iValue",oSlave2Master.iValue);
+
     OUT2T("slave.fValue",oSlave2Master.fValue);
   }
   else  if (iAvail)
@@ -35,7 +36,7 @@ slave.iValue: 102	 slave.fValue: 10.54	 slave: 101674	iRequests: 739	 iReceived:
 
 
 
-`slave: 101674	iRequests: 739	 iReceived: 740` is the uart GD32 debug output starting with it'S `millis()`. GD32 code:
+`slave: 101674	iRequests: 739	 iReceived: 740` is the uart GD32 debug output starting with it's `millis()`. GD32 code:
 
 ```
 // function that executes whenever data is requested by master
@@ -77,5 +78,6 @@ void receiveEvent(int iAvail)
 best chances to find a gen2.0 board is inside old 25V (7s liIon) hoverboards with these bldc motos:
 <img src="https://github.com/RoboDurden/GD32_I2C_Slave/blob/main/img/Gen2.0%20motors.jpg?raw=true" width="30%"/>
 
-For the differen Gen2 layoutouts look here: https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x
+For the different Gen2 layoutouts look here: https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x
+
 Thanks to [Candas1](https://github.com/Candas1) for the [pin definitions spreadsheet](https://docs.google.com/spreadsheets/d/15msbDAIMxC2rIkq8Au8vf82ub1qEaS67Lc1cFb86Jpc/edit#gid=0) 
