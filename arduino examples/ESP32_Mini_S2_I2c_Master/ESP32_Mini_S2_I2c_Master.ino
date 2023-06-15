@@ -20,7 +20,7 @@ void setup()
     Serial1.begin(115200, SERIAL_8N1, 16, 18);  //, pin_RX, pin_TX
   #endif
   
-  Wire.begin(37,39);  // SDIO,CLK ESP32 S2 Mini
+  Wire.begin(37,39);  // SDA,SCL ESP32 S2 Mini
 }
 
 unsigned long iNow = 0;
