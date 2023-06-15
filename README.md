@@ -25,6 +25,7 @@ slave.iValue: 102	 slave.fValue: 10.54	 slave: 101674	iRequests: 739	 iReceived:
   if (SerialRead(Wire,oSlave2Master,iAvail))
   {
     OUT2T("slave.iValue",oSlave2Master.iValue);
+
     OUT2T("slave.fValue",oSlave2Master.fValue);
   }
   else  if (iAvail)
@@ -35,7 +36,7 @@ slave.iValue: 102	 slave.fValue: 10.54	 slave: 101674	iRequests: 739	 iReceived:
 
 
 
-`slave: 101674	iRequests: 739	 iReceived: 740` is the uart GD32 debug output starting with it'S `millis()`. GD32 code:
+`slave: 101674	iRequests: 739	 iReceived: 740` is the uart GD32 debug output starting with it's `millis()`. GD32 code:
 
 ```
 // function that executes whenever data is requested by master
