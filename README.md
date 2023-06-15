@@ -78,5 +78,6 @@ void receiveEvent(int iAvail)
 best chances to find a gen2.0 board is inside old 25V (7s liIon) hoverboards with these bldc motos:
 <img src="https://github.com/RoboDurden/GD32_I2C_Slave/blob/main/img/Gen2.0%20motors.jpg?raw=true" width="30%"/>
 
-For the differen Gen2 layoutouts look here: https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x
+For the different Gen2 layoutouts look here: https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x
+
 Thanks to [Candas1](https://github.com/Candas1) for the [pin definitions spreadsheet](https://docs.google.com/spreadsheets/d/15msbDAIMxC2rIkq8Au8vf82ub1qEaS67Lc1cFb86Jpc/edit#gid=0) 
