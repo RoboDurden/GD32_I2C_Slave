@@ -1,6 +1,7 @@
 # GD32 I2C Slave Test :-)
 
- GD32F130x i2c slave test code
+GD32F130C6 and GD32F130C8 i2c slave test code.
+GD32: PlaformIO/VisualCode , ESP32: Arduino IDE
 
 EPS32 log output:
 ```
